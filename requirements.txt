@@ -1,0 +1,42 @@
+# Core Dependencies
+numpy>=1.22.1,<2.0.0
+pandas>=1.4.3,<3.0.0
+scikit-learn>=1.5.0,<2.0.0
+scipy>=1.10.1,<2.0.0
+
+# Deep Learning Framework
+torch>=2.3.1,<3.0.0
+
+# Utilities
+tqdm>=4.66.3,<5.0.0
+
+# API and Web Requests
+requests>=2.31.0,<3.0.0
+
+# Visualization
+matplotlib>=3.7.0,<4.0.0
+
+# Environment Management
+python-dotenv>=1.0.0,<2.0.0
+
+# Additional Dependencies for Enhanced Hot Spot Detection
+# Data Processing
+openpyxl>=3.1.0,<4.0.0  # For Excel file support
+
+# HTTP and API
+urllib3>=1.26.0,<3.0.0  # For secure HTTP requests
+
+# JSON and Data Serialization
+jsonschema>=4.0.0,<5.0.0  # For API response validation
+
+# Optional: For advanced visualizations
+plotly>=5.0.0,<6.0.0  # For interactive plots
+seaborn>=0.12.0,<1.0.0  # For statistical visualizations
+
+# Optional: For geographic data processing
+geopandas>=0.13.0,<1.0.0  # For geographic data analysis
+folium>=0.14.0,<1.0.0  # For interactive maps
+
+# Development and Testing (optional)
+pytest>=7.0.0,<8.0.0  # For running tests
+jupyter>=1.0.0,<2.0.0  # For notebook support

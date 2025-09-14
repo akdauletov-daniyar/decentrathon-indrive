@@ -1,0 +1,39 @@
+# Development Requirements for Enhanced Hot Spot Detection System
+# Install all dependencies including development tools
+
+# Include all main requirements
+-r requirements.txt
+
+# Development Tools
+pytest>=7.0.0
+pytest-cov>=4.0.0
+black>=23.0.0
+flake8>=6.0.0
+mypy>=1.0.0
+
+# Documentation
+sphinx>=6.0.0
+sphinx-rtd-theme>=1.2.0
+
+# Jupyter and Interactive Development
+jupyter>=1.0.0
+ipykernel>=6.0.0
+notebook>=6.5.0
+
+# Advanced Data Analysis
+plotly>=5.0.0
+seaborn>=0.12.0
+bokeh>=3.0.0
+
+# Geographic Data Processing
+geopandas>=0.13.0
+folium>=0.14.0
+shapely>=2.0.0
+
+# Performance Monitoring
+memory-profiler>=0.60.0
+line-profiler>=4.0.0
+
+# API Testing
+httpx>=0.24.0
+responses>=0.23.0

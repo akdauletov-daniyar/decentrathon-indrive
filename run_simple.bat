@@ -1,0 +1,16 @@
+@echo off
+echo === Simple Astana STGCN Demo ===
+
+echo Creating simple dataset...
+echo 30.00,31.00,32.00,33.00,34.00,35.00,36.00,37.00,38.00,39.00,40.00,41.00,42.00,43.00,44.00,45.00,46.00,47.00,48.00,49.00,50.00,51.00,52.00,53.00,54.00,55.00,56.00,57.00,58.00,59.00,60.00,61.00,62.00,63.00,64.00,65.00,66.00,67.00,68.00,69.00,70.00,71.00,72.00,73.00,74.00,75.00,76.00,77.00,78.00,79.00,80.00,81.00,82.00,83.00,84.00,85.00,86.00,87.00,88.00,89.00,90.00,91.00,92.00,93.00,94.00,95.00,96.00,97.00,98.00,99.00,100.00,101.00,102.00,103.00,104.00,105.00,106.00,107.00,108.00,109.00,110.00,111.00,112.00,113.00,114.00,115.00,116.00,117.00,118.00,119.00,120.00,121.00,122.00,123.00,124.00,125.00,126.00,127.00,128.00,129.00 > data\astana\vel.csv
+
+echo Dataset created!
+echo.
+echo Note: This is a minimal demo. For full functionality:
+echo 1. Install Python and required packages
+echo 2. Run: python main.py --dataset astana --epochs 10
+echo.
+echo The STGCN code has been modified to work with the Astana dataset.
+echo It will create a 10x10 grid of virtual sensors and train on synthetic data.
+
+pause
